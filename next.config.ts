@@ -1,3 +1,7 @@
 import type { NextConfig } from "next";
-const config: NextConfig = { output: "export", poweredByHeader: false };
+// Static export for Cloudflare Pages; no Next.js server is required at runtime.
+const config: NextConfig = {
+  output: "export",
+  poweredByHeader: false,
+};
 export default config;

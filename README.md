@@ -2,6 +2,8 @@
 
 Český responzivní web v Next.js App Router, Reactu, TypeScriptu a Tailwind CSS 4. Statický export bez databáze, formulářů, analytiky a externě načítaných písem. Ilustrace v úvodu je abstraktní CSS grafika, nikoli fotografie zboží nebo provozovny.
 
+Pro připravené nasazení na Cloudflare Pages použijte [CLOUDFLARE-PAGES.md](CLOUDFLARE-PAGES.md). Nasazení dosud není schváleno. Původní postup pro Vercel zůstává v `DEPLOYMENT.md` jako alternativa.
+
 ## Spuštění ve Windows PowerShell
 
 Je potřeba Node.js 20.9 nebo novější podporovaná verze a npm. V této složce spusťte:
